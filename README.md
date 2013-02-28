@@ -16,7 +16,7 @@ $face = new FacePageAlbum(PAGE_ID, $_GET['aid'], $_GET['aurl'], APP_ID, APP_SECR
 
 Veréis que hay 3 “define” del cuál solo nos interesa el primero, donde hay que substituir los “00000000000000″ por el id de nuestra página de Facebook.
 
-Paso 2: Aplicar Hoja de Estilos (Por Ejemplo un LightBox o Slider ... entre otros.)
+Paso 2: Aplicar Hoja de Estilos (Por Ejemplo un Fancybox, LightBox o Slider ... entre otros. de la libreria Jquery)
 
 A partir de aquí hay que trabajar el estilo de los diferentes elementos para darle forma, pero el esqueleto básico ya esta listo.
 
