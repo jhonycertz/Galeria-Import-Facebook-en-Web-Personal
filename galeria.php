@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Álbum de fotos Facebook</title>
+<title>Galeria</title>
 <style type='text/css'>
    body
    {
@@ -65,15 +65,15 @@
 				SexyLightbox.initialize({color:'blanco', dir: 'sexyimages'});				
 			});
 </script>
+
 </head>
 
 <body>
-
 <div id ="Contenedor">
 
 <div id ="wrapper">
 <?php
-
+//aqui se cambia el ID del Usuario de facebook ya sea FanPage o no!! esta Tiene la de Un Trabajo Actual de un Site de Turismo
    define('PAGE_ID', '188065314541169');
    define('APP_ID','');
    define('APP_SECRET','');
