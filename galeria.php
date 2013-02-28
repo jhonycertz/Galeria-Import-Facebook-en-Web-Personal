@@ -57,13 +57,15 @@
    }
 </style>
 
-<script type="text/javascript" src="sexylightbox.v2.3.jquery.min.js"></script>
-<script type="text/javascript" src="jquery.easing.1.3.js"></script>
-<link rel="stylesheet" href="sexylightbox.css" type="text/css" />
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="jquery.fancybox.pack.js"></script>
+<!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script type="text/javascript">
-			$(document).ready(function(){
-				SexyLightbox.initialize({color:'blanco', dir: 'sexyimages'});				
-			});
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
 </script>
 
 </head>
